@@ -21,6 +21,5 @@ class StartViewController: UIViewController {
 
     //MARK: Navigation
     @IBAction func unwind(_ segue: UIStoryboardSegue) {}
-
 }
 

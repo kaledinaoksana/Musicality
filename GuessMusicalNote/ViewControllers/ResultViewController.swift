@@ -11,19 +11,18 @@ class ResultViewController: UIViewController {
     
     //MARK: Outlets
     @IBOutlet var scoreLabel: UILabel!
-    @IBOutlet var resultButtons: [UIButton]!
-    
     @IBOutlet var tryAgainButton: UIButton!
+    
+    //MARK: Properties
+    var scoreText = ""
     
     //MARK: Settings
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor(patternImage: UIImage(named: "Argon")!)
-       
-        
+        scoreLabel.text = scoreText
         tryAgainButton.layer.cornerRadius = 8
-        
         navigationItem.hidesBackButton = true 
     }
     
@@ -33,7 +32,6 @@ class ResultViewController: UIViewController {
                   message: "🦸‍♀️Oksana Kaledina, 🦹🏼Andrey Vanakoff, 🦸🏼‍♂️Niko Tunin")
     }
     
-    
    //MARK: Additional actions
     @IBAction func shareButtonPressed() {
         let activityVC = UIActivityViewController(
@@ -42,8 +40,6 @@ class ResultViewController: UIViewController {
             applicationActivities: nil)
         present(activityVC, animated: true, completion: nil)
     }
-    
-    
 }
 
 // MARK: Extensions

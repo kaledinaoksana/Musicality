@@ -106,6 +106,9 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="noteButtonPressed:" destination="jxT-VE-kYB" eventType="touchUpInside" id="jR0-Hf-fFf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJS-Cj-Sze">
                                         <rect key="frame" x="117" y="0.0" width="100" height="100"/>
@@ -121,6 +124,9 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="noteButtonPressed:" destination="jxT-VE-kYB" eventType="touchUpInside" id="wh0-H4-06x"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4IN-CB-Np9">
                                         <rect key="frame" x="234" y="0.0" width="100" height="100"/>
@@ -136,6 +142,9 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="noteButtonPressed:" destination="jxT-VE-kYB" eventType="touchUpInside" id="tQq-jE-Hcm"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -156,6 +165,9 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="noteButtonPressed:" destination="jxT-VE-kYB" eventType="touchUpInside" id="Tml-cV-R35"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5d-6t-ZnR">
                                         <rect key="frame" x="117" y="0.0" width="100" height="100"/>
@@ -171,6 +183,9 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="noteButtonPressed:" destination="jxT-VE-kYB" eventType="touchUpInside" id="yB3-Zo-eRB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVi-wK-Iht">
                                         <rect key="frame" x="234" y="0.0" width="100" height="100"/>
@@ -186,6 +201,9 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="noteButtonPressed:" destination="jxT-VE-kYB" eventType="touchUpInside" id="6ah-rr-SOb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -203,6 +221,9 @@
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <action selector="noteButtonPressed:" destination="jxT-VE-kYB" eventType="touchUpInside" id="877-d0-iPO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lq-3B-s9N">
                                 <rect key="frame" x="87.5" y="581" width="200" height="46"/>
@@ -290,6 +311,9 @@
                                         <state key="normal" title=" F" image="music.note" catalog="system">
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerPressed:" destination="HD5-Qi-tBj" eventType="touchUpInside" id="Ktv-nH-ALS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gj1-XK-gPM">
                                         <rect key="frame" x="117" y="0.0" width="100" height="100"/>
@@ -305,6 +329,9 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerPressed:" destination="HD5-Qi-tBj" eventType="touchUpInside" id="gx8-ui-5Lc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bl0-tk-G6i">
                                         <rect key="frame" x="234" y="0.0" width="100" height="100"/>
@@ -320,20 +347,12 @@
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <imageReference key="image" image="music.note" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerPressed:" destination="HD5-Qi-tBj" eventType="touchUpInside" id="6EB-lN-Aw9"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRP-41-two">
-                                <rect key="frame" x="141" y="575.5" width="93" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="93" id="mgP-Jr-TNl"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Next-&gt;"/>
-                                <connections>
-                                    <segue destination="Si9-k1-Qlb" kind="show" id="6xi-9s-okf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVi-6P-pDj">
                                 <rect key="frame" x="97.5" y="176" width="180" height="180"/>
                                 <constraints>
@@ -342,18 +361,19 @@
                                 </constraints>
                                 <color key="tintColor" red="0.71315217019999999" green="0.57186377050000003" blue="0.9358577132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="livephoto.play" catalog="system"/>
+                                <connections>
+                                    <action selector="noteButtonPressed" destination="HD5-Qi-tBj" eventType="touchUpInside" id="klx-Qm-s0Y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yjl-tx-vTO"/>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
                             <constraint firstItem="aIM-ts-PWB" firstAttribute="top" secondItem="iVi-6P-pDj" secondAttribute="bottom" constant="50" id="8Cu-Nm-Wht"/>
-                            <constraint firstItem="dRP-41-two" firstAttribute="centerX" secondItem="Afz-f0-tub" secondAttribute="centerX" id="9UV-76-hL0"/>
                             <constraint firstItem="HYj-zl-8R2" firstAttribute="leading" secondItem="yjl-tx-vTO" secondAttribute="leading" id="9di-do-Idg"/>
                             <constraint firstItem="iVi-6P-pDj" firstAttribute="top" secondItem="unc-Ym-j2Z" secondAttribute="bottom" constant="30" id="G0J-Pz-bIe"/>
                             <constraint firstItem="yjl-tx-vTO" firstAttribute="trailing" secondItem="aIM-ts-PWB" secondAttribute="trailing" constant="20" id="L1E-Yv-lYe"/>
                             <constraint firstItem="oyw-uc-yyJ" firstAttribute="centerX" secondItem="Afz-f0-tub" secondAttribute="centerX" id="NbR-34-SoJ"/>
-                            <constraint firstItem="dRP-41-two" firstAttribute="top" secondItem="oyw-uc-yyJ" secondAttribute="bottom" constant="10" id="NeD-i2-wTo"/>
                             <constraint firstItem="iVi-6P-pDj" firstAttribute="centerX" secondItem="Afz-f0-tub" secondAttribute="centerX" id="RTS-um-Ups"/>
                             <constraint firstItem="aIM-ts-PWB" firstAttribute="leading" secondItem="yjl-tx-vTO" secondAttribute="leading" constant="20" id="Une-sJ-eX3"/>
                             <constraint firstItem="HYj-zl-8R2" firstAttribute="trailing" secondItem="yjl-tx-vTO" secondAttribute="trailing" id="WGO-6S-sac"/>
@@ -366,9 +386,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="vE8-hQ-bPD"/>
                     <connections>
+                        <outlet property="progressView" destination="HYj-zl-8R2" id="iy0-O4-bCN"/>
                         <outletCollection property="answerButtons" destination="rnD-fB-OB8" collectionClass="NSMutableArray" id="Kz1-dn-LuD"/>
                         <outletCollection property="answerButtons" destination="gj1-XK-gPM" collectionClass="NSMutableArray" id="z6T-Id-T7h"/>
                         <outletCollection property="answerButtons" destination="bl0-tk-G6i" collectionClass="NSMutableArray" id="E1i-J5-16c"/>
+                        <segue destination="Si9-k1-Qlb" kind="show" identifier="showResult" id="aqJ-dy-Wqf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Wc-t0-CmB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

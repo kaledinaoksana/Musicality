@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5B291126F3C2050085C7D4 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B290A26F3C2050085C7D4 /* G.wav */; };
+		2A5B291226F3C2050085C7D4 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B290B26F3C2050085C7D4 /* D.wav */; };
+		2A5B291326F3C2050085C7D4 /* H.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B290C26F3C2050085C7D4 /* H.wav */; };
+		2A5B291426F3C2050085C7D4 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B290D26F3C2050085C7D4 /* E.wav */; };
+		2A5B291526F3C2050085C7D4 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B290E26F3C2050085C7D4 /* A.wav */; };
+		2A5B291626F3C2050085C7D4 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B290F26F3C2050085C7D4 /* F.wav */; };
+		2A5B291726F3C2050085C7D4 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B291026F3C2050085C7D4 /* C.wav */; };
+		2A5B291926F3C5B40085C7D4 /* MusicQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B291826F3C5B40085C7D4 /* MusicQuestion.swift */; };
 		68A5511826F155EF007E69DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A5511726F155EF007E69DE /* AppDelegate.swift */; };
 		68A5511A26F155EF007E69DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A5511926F155EF007E69DE /* SceneDelegate.swift */; };
 		68A5511C26F155EF007E69DE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A5511B26F155EF007E69DE /* StartViewController.swift */; };
@@ -19,6 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A5B290A26F3C2050085C7D4 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		2A5B290B26F3C2050085C7D4 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		2A5B290C26F3C2050085C7D4 /* H.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = H.wav; sourceTree = "<group>"; };
+		2A5B290D26F3C2050085C7D4 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		2A5B290E26F3C2050085C7D4 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		2A5B290F26F3C2050085C7D4 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		2A5B291026F3C2050085C7D4 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		2A5B291826F3C5B40085C7D4 /* MusicQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicQuestion.swift; sourceTree = "<group>"; };
 		68A5511426F155EF007E69DE /* GuessMusicalNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMusicalNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A5511726F155EF007E69DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68A5511926F155EF007E69DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +59,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5B290926F3C2050085C7D4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B290A26F3C2050085C7D4 /* G.wav */,
+				2A5B290B26F3C2050085C7D4 /* D.wav */,
+				2A5B290C26F3C2050085C7D4 /* H.wav */,
+				2A5B290D26F3C2050085C7D4 /* E.wav */,
+				2A5B290E26F3C2050085C7D4 /* A.wav */,
+				2A5B290F26F3C2050085C7D4 /* F.wav */,
+				2A5B291026F3C2050085C7D4 /* C.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		2A5B291A26F3CD260085C7D4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				68A5511D26F155EF007E69DE /* Main.storyboard */,
+				68A5512226F155F3007E69DE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2A5B291B26F3CD3C0085C7D4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				68A5511726F155EF007E69DE /* AppDelegate.swift */,
+				68A5511926F155EF007E69DE /* SceneDelegate.swift */,
+				68A5512026F155F3007E69DE /* Assets.xcassets */,
+				68A5512526F155F3007E69DE /* Info.plist */,
+				2A5B290926F3C2050085C7D4 /* Sounds */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2A5B291C26F3CD500085C7D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B291826F3C5B40085C7D4 /* MusicQuestion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A5B291D26F3CD5D0085C7D4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68A5511B26F155EF007E69DE /* StartViewController.swift */,
+				68A5512B26F15AE9007E69DE /* DescriptionViewController.swift */,
+				68D94DA226F2781C00BB1E5F /* QuestionViewController.swift */,
+				68D94DA426F286DC00BB1E5F /* ResultViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		68A5510B26F155EF007E69DE = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +132,10 @@
 		68A5511626F155EF007E69DE /* GuessMusicalNote */ = {
 			isa = PBXGroup;
 			children = (
-				68A5511726F155EF007E69DE /* AppDelegate.swift */,
-				68A5511926F155EF007E69DE /* SceneDelegate.swift */,
-				68A5511B26F155EF007E69DE /* StartViewController.swift */,
-				68A5512B26F15AE9007E69DE /* DescriptionViewController.swift */,
-				68D94DA226F2781C00BB1E5F /* QuestionViewController.swift */,
-				68D94DA426F286DC00BB1E5F /* ResultViewController.swift */,
-				68A5511D26F155EF007E69DE /* Main.storyboard */,
-				68A5512026F155F3007E69DE /* Assets.xcassets */,
-				68A5512226F155F3007E69DE /* LaunchScreen.storyboard */,
-				68A5512526F155F3007E69DE /* Info.plist */,
+				2A5B291D26F3CD5D0085C7D4 /* ViewControllers */,
+				2A5B291A26F3CD260085C7D4 /* Storyboards */,
+				2A5B291C26F3CD500085C7D4 /* Model */,
+				2A5B291B26F3CD3C0085C7D4 /* App */,
 			);
 			path = GuessMusicalNote;
 			sourceTree = "<group>";
@@ -133,9 +197,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5B291226F3C2050085C7D4 /* D.wav in Resources */,
 				68A5512426F155F3007E69DE /* LaunchScreen.storyboard in Resources */,
+				2A5B291126F3C2050085C7D4 /* G.wav in Resources */,
+				2A5B291426F3C2050085C7D4 /* E.wav in Resources */,
+				2A5B291626F3C2050085C7D4 /* F.wav in Resources */,
+				2A5B291726F3C2050085C7D4 /* C.wav in Resources */,
 				68A5512126F155F3007E69DE /* Assets.xcassets in Resources */,
+				2A5B291526F3C2050085C7D4 /* A.wav in Resources */,
 				68A5511F26F155EF007E69DE /* Main.storyboard in Resources */,
+				2A5B291326F3C2050085C7D4 /* H.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +221,7 @@
 				68D94DA326F2781C00BB1E5F /* QuestionViewController.swift in Sources */,
 				68A5512C26F15AE9007E69DE /* DescriptionViewController.swift in Sources */,
 				68A5511826F155EF007E69DE /* AppDelegate.swift in Sources */,
+				2A5B291926F3C5B40085C7D4 /* MusicQuestion.swift in Sources */,
 				68A5511A26F155EF007E69DE /* SceneDelegate.swift in Sources */,
 				68D94DA526F286DC00BB1E5F /* ResultViewController.swift in Sources */,
 			);
@@ -299,7 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GuessMusicalNote/Info.plist;
+				INFOPLIST_FILE = GuessMusicalNote/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GuessMusicalNote/Info.plist;
+				INFOPLIST_FILE = GuessMusicalNote/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -484,9 +484,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="scoreLabel" destination="SuM-Sl-HXb" id="pEQ-ud-SSz"/>
-                        <outletCollection property="resultButtons" destination="57k-TB-scW" collectionClass="NSMutableArray" id="3Ze-j7-31a"/>
-                        <outletCollection property="resultButtons" destination="oYF-E0-ZeT" collectionClass="NSMutableArray" id="bTB-6w-tqo"/>
-                        <outletCollection property="resultButtons" destination="gIs-D3-3CH" collectionClass="NSMutableArray" id="iHK-IX-1Js"/>
+                        <outlet property="tryAgainButton" destination="57k-TB-scW" id="ym6-KK-XGk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eP3-GQ-W6r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

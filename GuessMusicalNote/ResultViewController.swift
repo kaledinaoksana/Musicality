@@ -13,19 +13,24 @@ class ResultViewController: UIViewController {
     @IBOutlet var scoreLabel: UILabel!
     @IBOutlet var resultButtons: [UIButton]!
     
+    @IBOutlet var tryAgainButton: UIButton!
     
     //MARK: Settings
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor(patternImage: UIImage(named: "Argon")!)
-        roundCornersButtons()
+       
+        
+        tryAgainButton.layer.cornerRadius = 8
+        
+        navigationItem.hidesBackButton = true 
     }
     
     //MARK: Actions
     @IBAction func aboutUsButtonPressed() {
         showAlert(title: "Made by Swiftbook 2.22 students:",
-                  message: "🦹🏼‍♀️Oksana Kaledina, 🦹🏼Andrey Vanakoff, 🦸🏼‍♂️Niko Tunin")
+                  message: "🦸‍♀️Oksana Kaledina, 🦹🏼Andrey Vanakoff, 🦸🏼‍♂️Niko Tunin")
     }
     
     
@@ -33,17 +38,11 @@ class ResultViewController: UIViewController {
     @IBAction func shareButtonPressed() {
         let activityVC = UIActivityViewController(
             activityItems:
-                ["My score in Guess Musical Note App is \(scoreLabel.text!)"],
+                ["My score in GuessMusicalNote app is \(scoreLabel.text!)"],
             applicationActivities: nil)
         present(activityVC, animated: true, completion: nil)
     }
     
-    //MARK: Private actions
-    private func roundCornersButtons() {
-        for button in resultButtons {
-            button.layer.cornerRadius = 8
-        }
-    }
     
 }
 

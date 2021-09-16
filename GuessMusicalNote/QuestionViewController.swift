@@ -18,6 +18,8 @@ class QuestionViewController: UIViewController {
  
         view.backgroundColor = UIColor(patternImage: UIImage(named: "Argon")!)
         roundAnswerButtons()
+        
+        navigationItem.hidesBackButton = true 
     }
     
    //MARK: Private actions

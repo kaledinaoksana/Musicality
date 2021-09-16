@@ -77,7 +77,7 @@ class QuestionViewController: UIViewController {
             button.setTitle(answer.musicNote.rawValue, for: .normal)
         }
         progressView.setProgress(totalProgress, animated: true)
-        title = "Question № \(questionIndex + 1) from \(questions.count)"
+        title = "Question № \(questionIndex + 1) / \(questions.count)"
     }
 
     //MARK: Navigation
